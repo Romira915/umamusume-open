@@ -1,0 +1,12 @@
+[package]
+authors = ["Romira915 <40430090+Romira915@users.noreply.github.com>"]
+edition = "2018"
+name = "umamusume_open"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[target.'cfg(windows)'.build-dependencies]
+windres = "0.2.2"
