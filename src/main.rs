@@ -6,7 +6,7 @@ fn main() {
     let mut command = Command::new("cmd")
         .arg("/c")
         .arg("start")
-        .arg("dmmgameplayer://umamusume/cl/general/umamusume")
+        .arg("dmmgameplayer://play/GCL/umamusume/cl/win")
         .spawn()
         .expect("Failed to start command.");
     command.wait().expect("Failed to wait for command.");
